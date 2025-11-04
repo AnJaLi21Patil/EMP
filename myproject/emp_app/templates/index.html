@@ -9,6 +9,10 @@
   <body>
     <div class="container">
      <h1>Office Employee Management System</h1>
+<h1>Welcome, {{ request.user.username }}</h1>
+<a class="btn btn-danger" href="/logout/">Logout</a>
+<!-- your dashboard buttons -->
+
      <hr>
      <a class="btn btn-primary" href="/all_emp" role="button">View All Employee</a>
      <a class="btn btn-primary" href="/add_emp" role="button">Add An Employee</a>
