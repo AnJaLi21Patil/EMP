@@ -287,8 +287,7 @@ document.getElementById('addEmployeeForm').addEventListener('submit', async func
     }
 });
 
-// Initialize page
-async function init() {
+async function init(){
     if (!accessToken && refreshToken) {
         await refreshAccessToken();
     } else if (!accessToken) {
