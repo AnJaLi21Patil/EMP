@@ -395,7 +395,8 @@ async function loadEmployees(filters = {}) {
     }
 }
 
-function applyFilters() {
+{% comment %} function applyFilters() { {% endcomment %}
+function applyFilters(){
     const filters = {
         department: document.getElementById("filterDepartment").value,
         role: document.getElementById("filterRole").value,
