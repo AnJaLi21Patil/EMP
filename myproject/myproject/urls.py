@@ -46,5 +46,6 @@ urlpatterns = [
 
     path('', include('emp_app.urls')),     
 
-    path('api/', include('emp_app.urls')),  
+
+path('api/', include('emp_app.urls')),  
 ]
