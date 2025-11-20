@@ -235,7 +235,6 @@ async function loadDepartments() {
         alert("Failed to load departments: " + err.message);
     }
 }
-
 async function loadRoles() {
     try {
         const res = await fetchWithAuth(`${API_BASE}roles/`);
